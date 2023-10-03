@@ -508,7 +508,8 @@
         setTimeout(function () {
         // If the user takes longer than 10 seconds to fill out the form, then use the actual endpoint.  If it takes less than 10 seconds, it most likely is a bot.
         const form = document.querySelector("#netsuiteForm form");
-        form.action = "https://1247584-sb2.extforms.netsuite.com/app/site/crm/externalcasepage.nl?compid=1247584_SB2&formid=29&h=AAFdikaIUHwvaWGDNzBbMWeruhJG0mx0S5gS13bUe9sxSCNIhhg";
+        // form.action = "https://1247584-sb2.extforms.netsuite.com/app/site/crm/externalcasepage.nl?compid=1247584_SB2&formid=29&h=AAFdikaIUHwvaWGDNzBbMWeruhJG0mx0S5gS13bUe9sxSCNIhhg";
+        form.action = "https://www.hashemian.com/tools/form-post-tester.php"
         }, 10000);
     });
     
